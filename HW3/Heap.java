@@ -175,8 +175,6 @@ class Question4{
                 new Task(1, "Clean workspace")
         };
 
-        Task[] heap = new Task[5];
-
         // Initialize the min-heap
         MinHeap minHeap = new MinHeap(tasks.length);
 
